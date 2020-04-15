@@ -1,0 +1,112 @@
+body
+{
+	background-image: url("https://cdn.pixabay.com/photo/2017/07/01/19/48/background-2462435__340.jpg")
+	margin:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	color: white;
+	overflow: hidden;
+	background-color: black;
+	padding: 30px;
+}
+
+.search-box
+{
+	display: inline-flex;
+	float:left;
+
+	
+}
+
+
+.header a
+{
+	float: center;
+	color:white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size:20px;
+	line-height: 15px;
+	border-radius: 10px;
+	display: inline-flex;
+
+}
+
+
+.header-right
+{
+	float:right;
+	color:white;
+	text-align: right;
+	padding: 2px;
+	line-height: 20px;
+	display: inline;
+}
+
+.header .header-center
+{
+	padding-left: 200px;
+}
+
+.header a.logo
+{
+	font-size: 35px;
+	font-weight: bold;
+	display: inline;
+}
+
+.header a:hover
+{
+	background-color: dodgerblue;
+	color:white;
+
+}
+
+.header a.login:hover
+{
+	background-color: #26a852;
+	color:white;
+}
+.header a.signup:hover
+{
+	background-color: #26a852;
+	color:white;
+}
+
+.photos
+{
+	background-color: #696969;
+}
+
+.photo1
+{
+	padding: 15px 50px;
+}
+
+.photo2
+{
+	padding: 15px 50px;
+}
+.photo3
+{
+	padding: 15px 50px;
+}
+
+.photo4
+{
+	padding: 15px 50px;
+}
+
+.photo5
+{
+	padding: 15px 50px;
+}
+
+.photo6
+{
+	padding: 15px 50px;
+}

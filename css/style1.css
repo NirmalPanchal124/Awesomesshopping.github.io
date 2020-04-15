@@ -1,0 +1,176 @@
+body
+{
+	background-image: url("https://cdn.pixabay.com/photo/2017/07/01/19/48/background-2462435__340.jpg")
+	margin:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+	color: white;
+	background-color: black;
+	padding: 30px;
+
+}
+
+.logo
+{
+	color: white;
+}
+.search-box
+{
+	display: inline-flex;
+	float:left;
+
+	
+}
+
+
+.header a
+{
+	float: center;
+	color:white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size:20px;
+	line-height: 15px;
+	border-radius: 10px;
+	display: inline-flex;
+
+}
+
+
+.header-right
+{
+	float:right;
+	color:white;
+	text-align: right;
+	padding: 2px;
+	line-height: 20px;
+	display: inline;
+}
+
+.header .header-center
+{
+	padding-left: 200px;
+	color:white;
+}
+
+.header a.logo
+{
+	font-size: 35px;
+	font-weight: bold;
+	display: inline;
+}
+
+.header a:hover
+{
+	background-color: dodgerblue;
+	color:white;
+
+}
+
+.header a.login:hover
+{
+	background-color: #26a852;
+	color:white;
+}
+.header a.signup:hover
+{
+	background-color: #26a852;
+	color:white;
+}
+
+
+
+/*.header a.home
+{
+	background-color: dodgerblue;
+	color:white;
+}*/
+
+/*.header a.login
+{
+	padding-left: 30px;
+}*/
+
+.carousel-inner{
+  width:100%;
+  height:500px;
+}
+.carousel-item img{
+
+  width:980px;
+  height: 500px;
+}
+
+.top-wrapper {
+  padding: 60px 0 60px 0;
+  background-color: #696969;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  }
+
+..container a.logo
+{
+	font-size: 40px;
+	font-weight: bold;
+	display: inline;
+	padding: 5px 5px;
+}
+.ct-footer {
+  background-color: #111;
+  padding-top: 70px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.ct-footer-list > li {
+    width: 20%;
+    display: table-cell;
+    vertical-align: top;
+  }
+
+.ct-footer-list {
+  padding: 50px 0;
+  list-style: none;
+  padding-left: 0;
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #555;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.ct-footer-list > li .ct-footer-list-header {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #00bff3;
+  font-size: 30px;
+}
+.ct-footer-list > li ul {
+  list-style: none;
+  padding-left: 0;
+      vertical-align: top;
+}
+.ct-footer-list > li ul li a {
+  color: #fff;
+}
+.ct-footer-list > li .ct-footer-list-header pre {
+	font-size: 30px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  background-color: #b3b3b3;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 20px 100px;
+}
